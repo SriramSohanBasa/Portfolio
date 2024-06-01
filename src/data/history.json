@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Senior Software Engineer",
+    "organisation": "Capgemini",
+    "startDate": "Sept, 2022",
+    "endDate": "Present",
+    "experiences": ["Database Design and handling", "Reduced load times by 30%"],
+    "imageSrc": "history/capg.png"
+  },
+  {
+    "role": "Senior Analyst Intern",
+    "organisation": "Verzeo",
+    "startDate": "Feb, 2022",
+    "endDate": "Jun, 2022",
+    "experiences": ["Data Handling", "Automated ETL pipelines"],
+    "imageSrc": "history/capg.png"
+  },
+  {
+    "role": "Machine Learning Intern",
+    "organisation": "Verzeo",
+    "startDate": "Jan, 2020",
+    "endDate": "Mar, 2020",
+    "experiences": [
+      "Developed an AI chatbot",
+      "Implemented NLP algorithms "
+    ],
+    "imageSrc": "history/verzeo.png"
+  }
+]

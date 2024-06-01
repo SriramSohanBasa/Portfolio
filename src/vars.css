@@ -1,0 +1,17 @@
+:root {
+  /* Colours */
+  --color-text: #fff;
+  --color-primary: #4b8991;
+  --color-secondary: #314974;
+  --color-dark: #e29d43;
+  --color-bg: #080808;
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+
+  /* Blur Effect */
+  --blur-background: rgba(25, 55, 109, 0.7);
+  --blur-filter: blur(100px);
+  --blur-border-radius: 764px;
+  --blur-transition: transform 0.1s ease;
+}

@@ -1,0 +1,36 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Blur Effect Styles */
+.blurEffect {
+  position: absolute;
+  border-radius: var(--blur-border-radius);
+  background: var(--blur-background);
+  filter: var(--blur-filter);
+  z-index: 0;
+  pointer-events: none; /* Ensure the blur elements don't interfere with cursor interactions */
+  transition: var(--blur-transition); /* Smooth transition */
+}
+
+.topBlur {
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  min-height: 350px;
+}
+
+.bottomBlur {
+  width: 70vw;
+  height: 50vw;
+  min-width: 250px;
+  min-height: 250px;
+}
