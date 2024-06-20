@@ -1,0 +1,267 @@
+/* 
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.loaded {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 14px;
+}
+
+.smallSquare {
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-bg);
+}
+
+.smallSquare img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+  transform-origin: center center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.modalContent {
+  width: 80%;
+  height: 80%;
+  background: var(--color-secondary);
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.modalContent img {
+  width: 0;
+  height: 0;
+  transform: scale(0);
+  object-fit: contain;
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+.modalOpen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalOpen .modalContent img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+}
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+  }
+} */
+
+
+
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.loaded {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Align items to the start (left) */
+  margin-top: 14px;
+}
+
+.smallSquare {
+
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-bg);
+  margin-right: auto; /* Push the square to the left */
+  margin-top: 50px;
+}
+
+.smallSquare img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+  transform-origin: center center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.modalContent {
+  width: 80%;
+  height: 80%;
+  background: var(--color-secondary);
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.modalContent img {
+  width: 0;
+  height: 0;
+  transform: scale(0);
+  object-fit: contain;
+  transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+}
+
+.modalOpen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalOpen .modalContent img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+}
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+  }
+}

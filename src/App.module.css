@@ -1,8 +1,28 @@
-@import "./vars.css";
+/* @import "./vars.css";
 
 .App {
   background-color: var(--color-bg);
   width: 100%;
   height: 100%;
   overflow: hidden;
+} */
+
+/* Import variables from vars.css */
+@import "./vars.css";
+
+/* Styles for the App component */
+.App {
+  /* Use a custom background color from vars.css */
+  background-color: var(--color-bg);
+  /* Ensure the App component takes up the full width and height of the screen */
+  width: 100%;
+  height: 100%;
+  /* Hide any overflow to prevent scrollbars */
+  overflow: hidden;
+  /* Flexbox properties to center content */
+  
+  justify-content: center;
+  align-items: center;
 }
+
+

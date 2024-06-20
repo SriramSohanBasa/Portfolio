@@ -35,3 +35,4 @@ export const ProjectCard = ({
     </div>
   );
 };
+
