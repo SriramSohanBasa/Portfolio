@@ -2,7 +2,7 @@
   {
     "title": "Medicine-Delivery-System",
     "imageSrc": "projects/project.png",
-    "description": "I developed a comprehensive database for a Medical Prescription Delivery System to streamline real-time order management and ensure safe storage and management of patient information. This system includes features like robust security measures, detailed reporting, and analytics to enhance prescription management and improve patient care. Additionally, it supports secure and efficient medication delivery, automated refills, and medication reminders, improving overall service quality and operational efficiency.",
+    "description": "Developed a secure and efficient database system for managing real-time prescription orders, patient information, and data visualization.",
     "skills": ["Python, SQL"],
     "demo": "https://www.example.com",
     "source": "https://github.com/SriramSohanBasa/Medicine-Delivery-System"
@@ -18,7 +18,7 @@
   {
     "title": "Project B",
     "imageSrc": "projects/project.png",
-    "description": "I developed a travel website using Node.js, Express, and MongoDB, featuring review management, accommodation booking, and blogs. The site includes a responsive front-end interface created with HTML, CSS, and JavaScript to enhance user experience. Additionally, I implemented RESTful APIs for handling user reviews, accommodation data, and bookings, ensuring efficient data storage and retrieval.",
+    "description": "Created a comprehensive travel website with features for review management, accommodation booking, and user-friendly interfaces.",
     "skills": ["MongoDB", "Express", "Node", "React"],
     "demo": "https://trouvaille-beige.vercel.app/home",
     "source": "https://github.com/SriramSohanBasa/Trouvaille"
