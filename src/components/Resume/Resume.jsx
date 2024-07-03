@@ -29,9 +29,8 @@ export const Resume = () => {
     <section className={styles.container} id="Resume">
       <h2 className={styles.title}>RESUME</h2>
       <p className={styles.description}>
-        Here is some random text about my career and professional background.
-        I have worked on several projects and gained extensive experience in the field.
-        Please find my resume below for more details.
+      Discover my journey through a dynamic blend of technical expertise, innovative projects, 
+      and professional experience in software development and data analytics. Click below to explore my detailed resume.
       </p>
       <div className={`${styles.content} ${isLoaded ? styles.loaded : ''}`}>
         {/* Small square to display the resume */}
