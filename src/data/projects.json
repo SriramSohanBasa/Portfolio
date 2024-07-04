@@ -3,7 +3,7 @@
     "title": "Medicine-Delivery-System",
     "imageSrc": "projects/project.png",
     "description": "Developed a secure and efficient database system for managing real-time prescription orders, patient information, and data visualization.",
-    "skills": ["Python, SQL"],
+    "skills": ["Python", "SQL"],
     "demo": "https://www.example.com",
     "source": "https://github.com/SriramSohanBasa/Medicine-Delivery-System"
   },
@@ -11,7 +11,7 @@
     "title": "LifeCord:Stem Cell Donation",
     "imageSrc": "projects/project.png",
     "description": "Developed LifeCord, a Java Swing application connecting blood cancer patients with stem cell donors. The app manages registration, network administration, and treatment coordination across multiple enterprises and organizations.",
-    "skills": ["Java Swing, SQL"],
+    "skills": ["Java Swing", " SQL"],
     "demo": "https://www.example.com",
     "source": "https://github.com/aed5100/final-project-team-appforge-1"
   },
