@@ -24,7 +24,7 @@
     "source": "https://github.com/SriramSohanBasa/Portfolio"
   },
   {
-    "title": "Project B",
+    "title": "Trouvaille- Travel Website",
     "imageSrc": "projects/project.png",
     "description": "Created a comprehensive travel website with features for review management, accommodation booking, and user-friendly interfaces.",
     "skills": ["MongoDB", "Express", "Node", "React"],
