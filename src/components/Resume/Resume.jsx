@@ -1,7 +1,7 @@
-
 import React, { useEffect, useState } from 'react';
 import styles from './Resume.module.css';
 import resumeImage from '../../data/Resume.png'; // Import the image directly
+import resumePDF from '../../data/SriramSohan_CV.pdf'; // Import the PDF directly
 
 // Named export of the Resume component
 export const Resume = () => {
@@ -41,6 +41,9 @@ export const Resume = () => {
         <div className={`${styles.modal} ${isModalOpen ? styles.modalOpen : ''}`} onClick={handleCloseModal}>
           <div className={styles.modalContent}>
             <img src={resumeImage} alt="Resume" />
+            <a href={resumePDF} download="SriramSohan_CV.pdf" className={styles.downloadButton}>
+              Download PDF
+            </a>
           </div>
         </div>
       </div>

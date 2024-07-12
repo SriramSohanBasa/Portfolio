@@ -4,32 +4,40 @@
     "imageSrc": "projects/project.png",
     "description": "Developed a secure and efficient database system for managing real-time prescription orders, patient information, and data visualization.",
     "skills": ["Python", "SQL"],
-    "demo": "https://www.example.com",
+    
     "source": "https://github.com/SriramSohanBasa/Medicine-Delivery-System"
+  },
+  {
+    "title": "Tennis Analysis",
+    "imageSrc": "projects/project.png",
+    "description": "- Developed an advanced Tennis Analysis System leveraging Ultralytics YOLOv8 for real-time detection of players and tennis balls.\n- Implemented object tracking algorithms to follow detected objects across frames, enhancing continuous analysis.\n- Trained a custom Convolutional Neural Network (CNN) using PyTorch to detect key points on the tennis court.\n- Utilized OpenCV for video processing tasks, including reading, manipulating, and saving video files, to support the overall analysis pipeline.",
+    "skills": ["Ultralytics YOLOv8", "PyTorch", "OpenCV"],
+   
+    "source": "https://github.com/SriramSohanBasa/Tennis_analysis"
   },
   {
     "title": "LifeCord:Stem Cell Donation",
     "imageSrc": "projects/project.png",
     "description": "Developed LifeCord, a Java Swing application connecting blood cancer patients with stem cell donors. The app manages registration, network administration, and treatment coordination across multiple enterprises and organizations.",
     "skills": ["Java Swing", " SQL"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/aed5100/final-project-team-appforge-1"
+    
+    "source": "https://github.com/SriramSohanBasa/StemCell-Bank"
   },
   {
     "title": "Portfolio",
     "imageSrc": "projects/project.png",
     "description": "My Portfolio",
     "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://sriramsohan-basa.netlify.app/",
-    "source": "https://github.com/SriramSohanBasa/Portfolio"
+    
+    "source": "https://sriramsohan-basa.netlify.app/"
   },
   {
     "title": "Trouvaille- Travel Website",
     "imageSrc": "projects/project.png",
     "description": "Created a comprehensive travel website with features for review management, accommodation booking, and user-friendly interfaces.",
     "skills": ["MongoDB", "Express", "Node", "React"],
-    "demo": "https://trouvaille-beige.vercel.app/home",
-    "source": "https://github.com/SriramSohanBasa/Trouvaille"
+    "demo": "",
+    "source": "https://trouvaille-beige.vercel.app/home"
   }
 
 ]
