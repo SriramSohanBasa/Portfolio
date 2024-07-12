@@ -14,6 +14,15 @@ export const About = () => {
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
+        <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>ML Engineer</h3>
+              <p>
+              Experienced ML Engineer with a history of designing and implementing multiple high-impact machine learning models
+              </p>
+            </div>
+          </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
@@ -44,15 +53,7 @@ export const About = () => {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>ML Engineer</h3>
-              <p>
-              Experienced ML Engineer with a history of designing and implementing multiple high-impact machine learning models
-              </p>
-            </div>
-          </li>
+          
         </ul>
       </div>
       <div className={styles.topBlur} />

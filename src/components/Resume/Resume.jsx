@@ -1,26 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Resume.module.css';
-import resumeImage from '../../data/Resume.png'; // Import the image directly
-import resumePDF from '../../data/SriramSohan_CV.pdf'; // Import the PDF directly
+import resumeImage from '../../data/Resume.png'; 
+import resumePDF from '../../data/SriramSohan_CV.pdf'; 
 
-// Named export of the Resume component
 export const Resume = () => {
-  // State to control modal open/close
+  
   const [isModalOpen, setIsModalOpen] = useState(false);
-  // State to control the fade-in effect
+  
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // Effect to set the loaded state after component mounts
+ 
   useEffect(() => {
     setIsLoaded(true);
   }, []);
 
-  // Function to handle opening the modal
+
   const handleOpenModal = () => {
     setIsModalOpen(true);
   };
 
-  // Function to handle closing the modal
+  
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };

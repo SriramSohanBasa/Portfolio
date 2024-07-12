@@ -1,19 +1,20 @@
 [
-  {
-    "title": "Medicine-Delivery-System",
-    "imageSrc": "projects/project.png",
-    "description": "Developed a secure and efficient database system for managing real-time prescription orders, patient information, and data visualization.",
-    "skills": ["Python", "SQL"],
-    
-    "source": "https://github.com/SriramSohanBasa/Medicine-Delivery-System"
-  },
+  
   {
     "title": "Tennis Analysis",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Tennis_Analysis.png",
     "description": "- Developed an advanced Tennis Analysis System leveraging Ultralytics YOLOv8 for real-time detection of players and tennis balls.\n- Implemented object tracking algorithms to follow detected objects across frames, enhancing continuous analysis.\n- Trained a custom Convolutional Neural Network (CNN) using PyTorch to detect key points on the tennis court.\n- Utilized OpenCV for video processing tasks, including reading, manipulating, and saving video files, to support the overall analysis pipeline.",
     "skills": ["Ultralytics YOLOv8", "PyTorch", "OpenCV"],
    
     "source": "https://github.com/SriramSohanBasa/Tennis_analysis"
+  },
+  {
+    "title": "Medicine-Delivery-System",
+    "imageSrc": "projects/Med_delivery.png",
+    "description": "Developed a secure and efficient database system for managing real-time prescription orders, patient information, and data visualization.",
+    "skills": ["Python", "SQL", "Flask"],
+    
+    "source": "https://github.com/SriramSohanBasa/Medicine-Delivery-System"
   },
   {
     "title": "LifeCord:Stem Cell Donation",
@@ -25,15 +26,15 @@
   },
   {
     "title": "Portfolio",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Portfolio.png",
     "description": "My Portfolio",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "skills": [ "MongoDB","Express", "React", "Node"],
     
     "source": "https://sriramsohan-basa.netlify.app/"
   },
   {
     "title": "Trouvaille- Travel Website",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/Trouvaille.png",
     "description": "Created a comprehensive travel website with features for review management, accommodation booking, and user-friendly interfaces.",
     "skills": ["MongoDB", "Express", "Node", "React"],
     "demo": "",

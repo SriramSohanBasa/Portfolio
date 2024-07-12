@@ -28,7 +28,7 @@
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start; /* Align items to the start (left) */
+  justify-content: flex-start; 
   margin-top: 14px;
 }
 
@@ -39,7 +39,7 @@
   cursor: pointer;
   border: 1px solid var(--color-primary);
   background-color: var(--color-bg);
-  margin-right: auto; /* Push the square to the left */
+  margin-right: auto; 
   margin-top: 50px;
 }
 
