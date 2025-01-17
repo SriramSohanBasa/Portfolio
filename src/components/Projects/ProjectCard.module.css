@@ -29,6 +29,7 @@
   font-size: 15px;
   font-weight: 400;
   color: #d3d3d3;
+  max-height: 150px;
   overflow-y: auto;
 }
 

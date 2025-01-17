@@ -9,6 +9,28 @@
     "source": "https://github.com/SriramSohanBasa/Tennis_analysis"
   },
   {
+    "title": "Finance Analyst RAG",
+    "imageSrc": "projects/FinanceRAG.png",
+    "description": "- Built a Retrieval-Augmented Generation (RAG) system utilizing agents powered by the Groq model.\n- Integrated tools like YFinance for stock analysis, analyst recommendations, and financial data retrieval.\n- Enabled dynamic responses combining web search and financial insights with real-time data aggregation.",
+  "skills": ["Groq API", "PyTorch", "OpenCV"],
+   
+    "source": "https://github.com/SriramSohanBasa/Agentic_AI/tree/main/Financial%20AI%20analyst"
+  },
+  {
+    "title": "Medical RAG",
+    "imageSrc": "projects/Medical_RAG.png",
+    "description": "- Developed an end-to-end medical chatbot leveraging Retrieval-Augmented Generation (RAG) for accurate and context-aware responses.\n- Integrated OpenAI GPT and Pinecone to retrieve and generate medical information.\n- Designed using LangChain for modular and flexible chatbot workflows.\n- Implemented Flask as a lightweight backend for seamless deployment.\n- Enabled secure, real-time interactions with sensitive medical data while maintaining compliance.",
+    "skills": [ "LangChain", "Flask", "Pinecone", "LLM"],
+    "source": "https://github.com/SriramSohanBasa/FullStack_Medical_RAG"
+  },
+  {
+    "title": "DCGAN Image Generation",
+    "imageSrc": "projects/DCGAN.png",
+    "description": "- Implemented a Deep Convolutional GAN (DCGAN) to generate realistic images from the CIFAR-10 dataset.\n- Designed the generator and discriminator networks with PyTorch for efficient image synthesis.\n- Utilized WandB for logging training metrics, including generator and discriminator loss.\n- Saved generated images every 2 epochs and visualized quality improvements during training.\n- Explored future enhancements, including conditional GANs (cGAN) and Wasserstein Loss for improved stability.",
+    "skills": ["Python", "PyTorch", "GAN", "WandB"],
+    "source": "https://github.com/SriramSohanBasa/GAN_implementation"
+  },
+  {
     "title": "Medicine-Delivery-System",
     "imageSrc": "projects/Med_delivery.png",
     "description": "Developed a secure and efficient database system for managing real-time prescription orders, patient information, and data visualization.",

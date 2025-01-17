@@ -36,8 +36,11 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Sriram Sohan</h1>
         <p className={styles.description}>
-          I'm a Machine learning enthusiast and Software Developer with an experience 
-          in building complex applications with modern technologies.
+        <p className={styles.description}>
+  I am a passionate Machine Learning Engineer and Software Developer dedicated to creating innovative, scalable solutions.
+   With expertise in leveraging state-of-the-art technologies, 
+   I specialize in building intelligent systems that drive real-world impact.
+</p>
         </p>
         <a href="mailto:basa.s@northeastern.edu" className={styles.contactBtn}>
           Contact Me

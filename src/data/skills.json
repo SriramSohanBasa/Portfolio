@@ -1,5 +1,21 @@
 [
   {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Pytorch",
+    "imageSrc": "skills/pytorch.png"
+  },
+  {
+    "title": "Tensorflow",
+    "imageSrc": "skills/tensorflow.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -15,24 +31,10 @@
     "title": "Node",
     "imageSrc": "skills/node.png"
   },
-  {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
+  
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Python",
-    "imageSrc": "skills/python.png"
-  },
-  {
-    "title": "Pytorch",
-    "imageSrc": "skills/pytorch.png"
-  },
-  {
-    "title": "Tensorflow",
-    "imageSrc": "skills/tensorflow.png"
   }
+
 ]
