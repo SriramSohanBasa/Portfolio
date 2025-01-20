@@ -32,7 +32,23 @@
   max-height: 150px;
   overflow-y: auto;
 }
+/* Custom Scrollbar Styling */
+.description::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
 
+.description::-webkit-scrollbar-track {
+  background: transparent; /* Background of the track */
+}
+
+.description::-webkit-scrollbar-thumb {
+  background-color: #576cbc; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounded corners for the thumb */
+}
+
+.description::-webkit-scrollbar-thumb:hover {
+  background-color: #132a53; /* Darker color on hover */
+}
 .skills {
   width: 100%;
   margin-top: 14px;
