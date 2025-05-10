@@ -9,6 +9,13 @@
     "source": "https://github.com/SriramSohanBasa/Tennis_analysis"
   },
   {
+    "title": "Parallelized Image Captioning Pipeline",
+    "imageSrc": "projects/ImageCaptioning.png",
+    "description": "- Built an end-to-end encoder–decoder with Bahdanau attention in PyTorch, training on COCO with DistributedDataParallel (DDP) across 4 GPUs, achieving a 3.8× epoch-time speedup over single-GPU.\n- Leveraged Dask to parallelize COCO JSON ingestion on 12 cores, realizing a 5.6× speedup and 0.47 efficiency for data preprocessing.\n- Implemented GPU-based beam search (k=3) yielding 0.40 images/sec throughput and qualitative attention heatmaps for model interpretability.\n- Evaluated caption quality on 500 validation images: BLEU-1 0.63, BLEU-4 0.25, CIDEr 0.77, demonstrating robust generation performance.\n- Visualized and compared SP, DP, MP, DDP, and inference metrics in unified Matplotlib dashboards for comprehensive performance analysis.",
+    "skills": ["Parallelization", "PyTorch", "Dask", "Multi-GPU"],
+    "source": "https://github.com/SriramSohanBasa"
+},
+  {
     "title": "Finance Analyst RAG",
     "imageSrc": "projects/FinanceRAG.png",
     "description": "- Built a Retrieval-Augmented Generation (RAG) system utilizing agents powered by the Groq model.\n- Integrated tools like YFinance for stock analysis, analyst recommendations, and financial data retrieval.\n- Enabled dynamic responses combining web search and financial insights with real-time data aggregation.",
